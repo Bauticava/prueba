@@ -1,0 +1,16 @@
+float64 x
+float64 y
+float64 z
+float64 roll
+float64 pitch
+float64 yaw
+float64 scale
+string entity_name
+string frame_id
+bool add_to_planning_scene
+bool spawn_in_sim_world
+string sim_world
+string sim_reference_frame
+---
+bool success
+string message

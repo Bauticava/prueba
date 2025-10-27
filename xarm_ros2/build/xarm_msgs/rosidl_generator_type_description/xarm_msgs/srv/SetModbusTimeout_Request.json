@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/SetModbusTimeout_Request",
+      "fields": [
+        {
+          "name": "timeout",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "is_transparent_transmission",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "False"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/SetModbusTimeout_Request",
+      "hash_string": "RIHS01_4885016c0e8adf44a7030c3e77c80f0169a7a99776dc103f5fc33b79a6b3d817"
+    }
+  ]
+}

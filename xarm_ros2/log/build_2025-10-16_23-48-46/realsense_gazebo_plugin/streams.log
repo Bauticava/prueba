@@ -1,0 +1,54 @@
+[0.550s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin
+[15.726s] -- The C compiler identification is Clang 19.1.1
+[16.352s] -- The CXX compiler identification is Clang 19.1.1
+[16.798s] -- Detecting C compiler ABI info
+[18.242s] -- Detecting C compiler ABI info - done
+[18.253s] -- Check for working C compiler: /usr/bin/clang - skipped
+[18.254s] -- Detecting C compile features
+[18.254s] -- Detecting C compile features - done
+[18.288s] -- Detecting CXX compiler ABI info
+[18.630s] -- Detecting CXX compiler ABI info - done
+[18.642s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[18.642s] -- Detecting CXX compile features
+[18.642s] -- Detecting CXX compile features - done
+[19.405s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[20.069s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[20.567s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[21.302s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[21.540s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[22.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.591s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[28.785s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[37.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[38.985s] -- Found FastRTPS: /opt/ros/foxy/include (Required is at least version "2.13") 
+[39.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[40.155s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[40.536s] -- Configuring done (38.1s)
+[40.578s] -- Generating done (0.0s)
+[40.584s] -- Build files have been written to: /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin
+[40.600s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin
+[40.602s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin -- -j12 -l12
+[40.688s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin -- -j12 -l12
+[40.690s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin
+[40.709s] -- Install configuration: ""
+[40.709s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[40.709s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[40.710s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[40.710s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[40.711s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[40.711s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[40.711s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[40.711s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[40.712s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[40.712s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[40.712s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[40.713s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[40.713s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[40.713s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[40.713s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.714s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[40.714s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[40.714s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[40.714s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[40.717s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin

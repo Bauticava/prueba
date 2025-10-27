@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/GetAnalogIO_Request",
+      "fields": [
+        {
+          "name": "ionum",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/GetAnalogIO_Request",
+      "hash_string": "RIHS01_53f81c732205cc9b40148de7a7de6d56ad68b2ecb653ff1ad48908cae7e05960"
+    }
+  ]
+}

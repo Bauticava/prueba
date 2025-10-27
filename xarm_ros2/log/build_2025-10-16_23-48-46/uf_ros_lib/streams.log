@@ -1,0 +1,61 @@
+[12.090s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uf_ros_lib build --build-base /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build install --record /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[12.375s] running egg_info
+[12.375s] creating ../build/uf_ros_lib/uf_ros_lib.egg-info
+[12.393s] writing ../build/uf_ros_lib/uf_ros_lib.egg-info/PKG-INFO
+[12.393s] writing dependency_links to ../build/uf_ros_lib/uf_ros_lib.egg-info/dependency_links.txt
+[12.394s] writing requirements to ../build/uf_ros_lib/uf_ros_lib.egg-info/requires.txt
+[12.394s] writing top-level names to ../build/uf_ros_lib/uf_ros_lib.egg-info/top_level.txt
+[12.394s] writing manifest file '../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[12.441s] reading manifest file '../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[12.442s] writing manifest file '../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[12.442s] running build
+[12.442s] running build_py
+[12.442s] creating /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build
+[12.442s] creating /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib
+[12.443s] creating /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib
+[12.443s] copying uf_ros_lib/moveit_configs_builder.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib
+[12.443s] copying uf_ros_lib/uf_robot_utils.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib
+[12.443s] copying uf_ros_lib/parameter_descriptions.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib
+[12.443s] copying uf_ros_lib/__init__.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib
+[12.443s] creating /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.443s] copying uf_ros_lib/substitutions/controllers.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.444s] copying uf_ros_lib/substitutions/planning_pipelines.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.444s] copying uf_ros_lib/substitutions/joint_limits.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.444s] copying uf_ros_lib/substitutions/common.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.444s] copying uf_ros_lib/substitutions/kinematics.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.444s] copying uf_ros_lib/substitutions/__init__.py -> /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[12.445s] running install
+[12.450s] running install_lib
+[12.470s] creating /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[12.470s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/moveit_configs_builder.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[12.470s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/uf_robot_utils.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[12.470s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/parameter_descriptions.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[12.470s] creating /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.470s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/controllers.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.470s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/planning_pipelines.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.471s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/joint_limits.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.471s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/common.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.471s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/kinematics.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.471s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/__init__.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[12.471s] copying /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build/lib/uf_ros_lib/__init__.py -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[12.471s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/moveit_configs_builder.py to moveit_configs_builder.cpython-312.pyc
+[12.484s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/uf_robot_utils.py to uf_robot_utils.cpython-312.pyc
+[12.486s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/parameter_descriptions.py to parameter_descriptions.cpython-312.pyc
+[12.486s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/controllers.py to controllers.cpython-312.pyc
+[12.488s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/planning_pipelines.py to planning_pipelines.cpython-312.pyc
+[12.489s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/joint_limits.py to joint_limits.cpython-312.pyc
+[12.491s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/common.py to common.cpython-312.pyc
+[12.493s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/kinematics.py to kinematics.cpython-312.pyc
+[12.494s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/__init__.py to __init__.cpython-312.pyc
+[12.494s] byte-compiling /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/__init__.py to __init__.cpython-312.pyc
+[12.495s] running install_data
+[12.495s] creating /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/ament_index
+[12.495s] creating /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/ament_index/resource_index
+[12.495s] creating /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/ament_index/resource_index/packages
+[12.495s] copying resource/uf_ros_lib -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/ament_index/resource_index/packages
+[12.495s] copying package.xml -> /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib
+[12.496s] running install_egg_info
+[12.525s] Copying ../build/uf_ros_lib/uf_ros_lib.egg-info to /home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib-0.0.0-py3.12.egg-info
+[12.526s] running install_scripts
+[12.662s] writing list of installed files to '/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/install.log'
+[12.685s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uf_ros_lib build --build-base /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build install --record /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/install.log --single-version-externally-managed install_data

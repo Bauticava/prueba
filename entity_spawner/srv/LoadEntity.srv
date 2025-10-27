@@ -1,0 +1,5 @@
+string stl_path
+string entity_name
+---
+bool success
+string message

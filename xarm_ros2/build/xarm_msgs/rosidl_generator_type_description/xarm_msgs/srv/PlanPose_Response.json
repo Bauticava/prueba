@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/PlanPose_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/PlanPose_Response",
+      "hash_string": "RIHS01_6333d0050fbb6be6ace8c1a79795c332d4f381a17051ae2d1c17f0282ff5a949"
+    }
+  ]
+}

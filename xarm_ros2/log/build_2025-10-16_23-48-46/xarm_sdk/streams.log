@@ -1,0 +1,135 @@
+[0.085s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk
+[15.757s] -- The C compiler identification is Clang 19.1.1
+[16.378s] -- The CXX compiler identification is Clang 19.1.1
+[16.833s] -- Detecting C compiler ABI info
+[18.276s] -- Detecting C compiler ABI info - done
+[18.290s] -- Check for working C compiler: /usr/bin/clang - skipped
+[18.290s] -- Detecting C compile features
+[18.291s] -- Detecting C compile features - done
+[18.322s] -- Detecting CXX compiler ABI info
+[18.665s] -- Detecting CXX compiler ABI info - done
+[18.682s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[18.682s] -- Detecting CXX compile features
+[18.683s] -- Detecting CXX compile features - done
+[19.439s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[20.098s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[20.527s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[21.091s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.112s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.112s] -- Configured cppcheck include dirs: /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk/cxx/include
+[21.112s] -- Configured cppcheck exclude dirs and/or files: 
+[21.133s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[21.133s] -- Configured cpplint exclude dirs and/or files: 
+[21.142s] -- Added test 'lint_cmake' to check CMake code style
+[21.171s] -- Added test 'uncrustify' to check C / C++ code style
+[21.171s] -- Configured uncrustify additional arguments: 
+[21.175s] -- Added test 'xmllint' to check XML markup files
+[21.200s] -- Configuring done (18.8s)
+[21.209s] -- Generating done (0.0s)
+[21.211s] -- Build files have been written to: /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk
+[21.217s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk
+[21.217s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk -- -j12 -l12
+[21.316s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o[0m
+[21.317s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_win.cc.o[0m
+[21.319s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/crc16.cc.o[0m
+[21.319s] [ 18%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o[0m
+[21.319s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o[0m
+[21.319s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o[0m
+[21.320s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_osx.cc.o[0m
+[21.320s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/win.cc.o[0m
+[21.320s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/debug/debug_print.cc.o[0m
+[21.320s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o[0m
+[21.320s] [ 34%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o[0m
+[21.325s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o[0m
+[21.460s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o[0m
+[21.462s] [ 43%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o[0m
+[21.465s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o[0m
+[22.322s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o[0m
+[23.990s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o[0m
+[24.535s] [ 56%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o[0m
+[26.809s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o[0m
+[27.945s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o[0m
+[27.945s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o[0m
+[27.945s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o[0m
+[27.946s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o[0m
+[28.041s] In file included from /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk/cxx/src/xarm/core/port/ser.cc:27:
+[28.041s] [1m/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk/cxx/include/xarm/core/port/ser.h:36:7: [0m[0;1;35mwarning: [0m[1mprivate field 'fp_' is not used [-Wunused-private-field][0m
+[28.041s]    36 |   [0;34mint[0m fp_;[0m
+[28.042s]       | [0;1;32m      ^
+[28.341s] [0m1 warning generated.
+[28.365s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o[0m
+[28.365s] [ 78%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o[0m
+[28.390s] [ 81%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o[0m
+[28.426s] [ 84%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o[0m
+[28.443s] [ 87%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o[0m
+[29.069s] [ 90%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o[0m
+[35.618s] [1m/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk/cxx/src/xarm/wrapper/xarm_gripper.cc:158:11: [0m[0;1;35mwarning: [0m[1musing floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value][0m
+[35.618s]   158 |       [0;34mif[0m (fabs(target_pos - cur_pos) < [0;32m1[0m) {[0m
+[35.618s]       | [0;1;32m          ^
+[35.770s] [0m[1m/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk/cxx/src/xarm/wrapper/xarm_gripper.cc:158:11: [0m[0;1;36mnote: [0muse function 'std::abs' instead[0m
+[35.771s]   158 |       [0;34mif[0m (fabs(target_pos - cur_pos) < [0;32m1[0m) {[0m
+[35.771s]       | [0;1;32m          ^~~~
+[35.771s] [0m      | [0;32m          std::abs
+[37.100s] [0m1 warning generated.
+[38.283s] [ 96%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_track.cc.o[0m
+[38.283s] [ 96%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o[0m
+[39.532s] [100%] [32m[1mLinking CXX shared library libxarm_cxx_sdk.so[0m
+[40.070s] [100%] Built target xarm_cxx_sdk
+[40.143s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk -- -j12 -l12
+[40.190s] Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk
+[40.190s] -- Install configuration: ""
+[40.190s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[40.190s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[40.225s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include
+[40.225s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm
+[40.226s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/wrapper
+[40.227s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[40.228s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/wrapper/common
+[40.228s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[40.228s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[40.228s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core
+[40.228s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/debug
+[40.229s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[40.229s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[40.229s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[40.229s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/common
+[40.230s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[40.230s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[40.230s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[40.230s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/port
+[40.231s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[40.231s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[40.231s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[40.232s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/os
+[40.232s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[40.232s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction
+[40.232s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[40.232s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[40.233s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial/serial.h
+[40.234s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial/impl
+[40.234s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[40.234s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/cxx/include/serial/impl/win.h
+[40.261s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[40.264s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[40.265s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[40.265s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[40.266s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[40.266s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[40.266s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[40.266s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[40.296s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[40.296s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[40.296s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[40.297s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.dsv
+[40.297s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[40.298s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[40.357s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.367s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[40.413s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[40.419s] -- Installing: /home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.xml
+[40.428s] Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk

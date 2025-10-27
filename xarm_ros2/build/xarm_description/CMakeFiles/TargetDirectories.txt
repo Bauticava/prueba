@@ -1,0 +1,9 @@
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/uninstall.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/xarm_description_uninstall.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/test.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/edit_cache.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/rebuild_cache.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/list_install_components.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/install.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/install/local.dir
+/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description/CMakeFiles/install/strip.dir

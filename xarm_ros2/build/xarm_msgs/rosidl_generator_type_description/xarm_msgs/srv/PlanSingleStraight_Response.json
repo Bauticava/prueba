@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/PlanSingleStraight_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/PlanSingleStraight_Response",
+      "hash_string": "RIHS01_ebb94286cf7c0d2dddb2f9b857f96d28b834219b216db16bb8dbf92384f4d2ca"
+    }
+  ]
+}

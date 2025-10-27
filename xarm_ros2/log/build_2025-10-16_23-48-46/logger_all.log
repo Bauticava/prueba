@@ -1,0 +1,630 @@
+[0.259s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.259s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x723d5e694bc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x723d5e667fe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x723d5e667fe0>>)
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.304s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotron/robotron-ros2/src/xarm_ros2'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(demo/mbot_demo) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'demo/mbot_demo' with type 'ros.ament_cmake' and name 'mbot_demo'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(thirdparty/realsense_gazebo_plugin) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'thirdparty/realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(uf_ros_lib) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'uf_ros_lib' with type 'ros.ament_python' and name 'uf_ros_lib'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_api) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_api' with type 'ros.ament_cmake' and name 'xarm_api'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_controller) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_controller' with type 'ros.ament_cmake' and name 'xarm_controller'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_description) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_description' with type 'ros.ament_cmake' and name 'xarm_description'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_gazebo) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_gazebo' with type 'ros.ament_cmake' and name 'xarm_gazebo'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_config) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_moveit_config' with type 'ros.ament_cmake' and name 'xarm_moveit_config'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_moveit_servo) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_moveit_servo' with type 'ros.ament_cmake' and name 'xarm_moveit_servo'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_msgs) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_msgs' with type 'ros.ament_cmake' and name 'xarm_msgs'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_planner) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_planner' with type 'ros.ament_cmake' and name 'xarm_planner'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_sdk' with type 'ros.ament_cmake' and name 'xarm_sdk'
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/robotron/robotron-ros2/install
+[0.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/jazzy
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'mbot_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'mbot_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/demo/mbot_demo', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'uf_ros_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'uf_ros_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_description', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_api', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_controller', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_controller', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_gazebo', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_moveit_config', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_moveit_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_moveit_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_moveit_servo', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_moveit_servo', 'symlink_install': False, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_planner', 'merge_install': False, 'path': '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_planner', 'symlink_install': False, 'test_result_base': None}
+[0.499s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_description' with build type 'ament_cmake'
+[0.500s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_description'
+[0.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_msgs' with build type 'ament_cmake'
+[0.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_msgs'
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib' with build type 'ament_python'
+[0.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('uf_ros_lib', 'ament_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/ament_prefix_path.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/ament_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/ament_prefix_path.sh'
+[0.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.605s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/demo/mbot_demo' with build type 'ament_cmake'
+[0.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/demo/mbot_demo'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin' with build type 'ament_cmake'
+[0.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_description -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_msgs -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk
+[1.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib'
+[1.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/demo/mbot_demo -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo
+[1.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin
+[12.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uf_ros_lib build --build-base /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build install --record /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[13.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/uf_ros_lib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uf_ros_lib build --build-base /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/build install --record /home/robotron/robotron-ros2/src/xarm_ros2/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[13.389s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib' for CMake module files
+[13.392s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib' for CMake config files
+[13.396s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib'
+[13.397s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/bin'
+[13.398s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/pkgconfig/uf_ros_lib.pc'
+[13.399s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/lib/python3.12/site-packages'
+[13.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('uf_ros_lib', 'pythonpath')
+[13.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/pythonpath.ps1'
+[13.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/pythonpath.dsv'
+[13.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/hook/pythonpath.sh'
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/bin'
+[13.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uf_ros_lib)
+[13.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/package.ps1'
+[13.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/package.dsv'
+[13.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/package.sh'
+[13.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/package.bash'
+[13.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/uf_ros_lib/package.zsh'
+[13.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/uf_ros_lib/share/colcon-core/packages/uf_ros_lib)
+[21.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/demo/mbot_demo -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo
+[21.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo -- -j12 -l12
+[21.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_description -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description
+[21.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description -- -j12 -l12
+[21.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk
+[21.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk -- -j12 -l12
+[21.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo -- -j12 -l12
+[21.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo
+[21.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description -- -j12 -l12
+[21.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description
+[21.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mbot_demo)
+[21.920s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo' for CMake module files
+[21.923s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo' for CMake config files
+[21.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('mbot_demo', 'cmake_prefix_path')
+[21.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.ps1'
+[21.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.dsv'
+[21.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.sh'
+[21.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/mbot_demo
+[21.931s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/bin'
+[21.931s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/lib/pkgconfig/mbot_demo.pc'
+[21.931s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/lib/python3.12/site-packages'
+[21.932s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/bin'
+[21.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.ps1'
+[21.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.dsv'
+[21.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.sh'
+[21.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.bash'
+[21.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.zsh'
+[21.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/colcon-core/packages/mbot_demo)
+[21.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mbot_demo)
+[21.938s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo' for CMake module files
+[21.943s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo' for CMake config files
+[21.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('mbot_demo', 'cmake_prefix_path')
+[21.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.ps1'
+[21.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.dsv'
+[21.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/hook/cmake_prefix_path.sh'
+[21.949s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/bin'
+[21.949s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/lib/pkgconfig/mbot_demo.pc'
+[21.949s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/lib/python3.12/site-packages'
+[21.950s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/bin'
+[21.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.ps1'
+[21.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.dsv'
+[21.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.sh'
+[21.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.bash'
+[21.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/mbot_demo/package.zsh'
+[21.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/mbot_demo/share/colcon-core/packages/mbot_demo)
+[22.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[22.166s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description' for CMake module files
+[22.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_description
+[22.167s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description' for CMake config files
+[22.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[22.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[22.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[22.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[22.168s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/bin'
+[22.169s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[22.169s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/lib/python3.12/site-packages'
+[22.169s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/bin'
+[22.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.ps1'
+[22.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.dsv'
+[22.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.sh'
+[22.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.bash'
+[22.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.zsh'
+[22.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/colcon-core/packages/xarm_description)
+[22.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[22.172s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description' for CMake module files
+[22.172s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description' for CMake config files
+[22.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[22.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[22.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[22.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[22.174s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/bin'
+[22.174s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[22.174s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/lib/python3.12/site-packages'
+[22.174s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/bin'
+[22.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.ps1'
+[22.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.dsv'
+[22.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.sh'
+[22.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.bash'
+[22.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/xarm_description/package.zsh'
+[22.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description/share/colcon-core/packages/xarm_description)
+[40.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk -- -j12 -l12
+[40.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk
+[41.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_sdk)
+[41.008s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk' for CMake module files
+[41.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_sdk
+[41.013s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk' for CMake config files
+[41.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'cmake_prefix_path')
+[41.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.ps1'
+[41.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.dsv'
+[41.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.sh'
+[41.023s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib'
+[41.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'ld_library_path_lib')
+[41.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.ps1'
+[41.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.dsv'
+[41.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.sh'
+[41.031s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/bin'
+[41.031s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib/pkgconfig/xarm_sdk.pc'
+[41.033s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib/python3.12/site-packages'
+[41.035s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/bin'
+[41.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.ps1'
+[41.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.dsv'
+[41.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.sh'
+[41.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.bash'
+[41.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.zsh'
+[41.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/colcon-core/packages/xarm_sdk)
+[41.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_sdk)
+[41.048s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk' for CMake module files
+[41.050s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk' for CMake config files
+[41.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'cmake_prefix_path')
+[41.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.ps1'
+[41.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.dsv'
+[41.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.sh'
+[41.058s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib'
+[41.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'ld_library_path_lib')
+[41.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.ps1'
+[41.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.dsv'
+[41.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.sh'
+[41.062s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/bin'
+[41.063s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib/pkgconfig/xarm_sdk.pc'
+[41.064s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib/python3.12/site-packages'
+[41.066s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/bin'
+[41.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.ps1'
+[41.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.dsv'
+[41.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.sh'
+[41.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.bash'
+[41.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/xarm_sdk/package.zsh'
+[41.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/share/colcon-core/packages/xarm_sdk)
+[41.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin
+[41.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin -- -j12 -l12
+[41.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin -- -j12 -l12
+[41.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin
+[41.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[41.333s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin' for CMake module files
+[41.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/realsense_gazebo_plugin
+[41.334s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin' for CMake config files
+[41.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[41.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[41.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[41.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[41.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/bin'
+[41.337s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[41.338s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/lib/python3.12/site-packages'
+[41.339s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/bin'
+[41.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[41.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[41.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[41.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[41.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[41.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[41.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[41.343s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin' for CMake module files
+[41.344s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin' for CMake config files
+[41.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[41.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[41.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[41.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[41.346s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/bin'
+[41.346s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[41.347s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/lib/python3.12/site-packages'
+[41.347s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/bin'
+[41.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[41.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[41.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[41.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[41.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[41.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[44.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_msgs -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs
+[44.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs -- -j12 -l12
+[137.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs -- -j12 -l12
+[137.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs
+[137.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_msgs)
+[137.773s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs' for CMake module files
+[137.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs
+[137.774s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs' for CMake config files
+[137.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'cmake_prefix_path')
+[137.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.ps1'
+[137.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.dsv'
+[137.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.sh'
+[137.777s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib'
+[137.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'ld_library_path_lib')
+[137.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.ps1'
+[137.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.dsv'
+[137.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.sh'
+[137.778s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/bin'
+[137.778s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/pkgconfig/xarm_msgs.pc'
+[137.778s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/python3.12/site-packages'
+[137.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'pythonpath')
+[137.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.ps1'
+[137.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.dsv'
+[137.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.sh'
+[137.780s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/bin'
+[137.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.ps1'
+[137.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.dsv'
+[137.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.sh'
+[137.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.bash'
+[137.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.zsh'
+[137.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/colcon-core/packages/xarm_msgs)
+[137.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_msgs)
+[137.783s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs' for CMake module files
+[137.784s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs' for CMake config files
+[137.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'cmake_prefix_path')
+[137.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.ps1'
+[137.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.dsv'
+[137.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.sh'
+[137.787s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib'
+[137.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'ld_library_path_lib')
+[137.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.ps1'
+[137.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.dsv'
+[137.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.sh'
+[137.788s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/bin'
+[137.788s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/pkgconfig/xarm_msgs.pc'
+[137.789s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/python3.12/site-packages'
+[137.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'pythonpath')
+[137.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.ps1'
+[137.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.dsv'
+[137.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/hook/pythonpath.sh'
+[137.791s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/bin'
+[137.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.ps1'
+[137.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.dsv'
+[137.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.sh'
+[137.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.bash'
+[137.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/xarm_msgs/package.zsh'
+[137.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/share/colcon-core/packages/xarm_msgs)
+[137.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_api' with build type 'ament_cmake'
+[137.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotron/robotron-ros2/src/xarm_ros2/xarm_api'
+[137.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[137.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[137.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_api': AMENT_PREFIX_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_api -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api
+[141.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_api' returned '1': AMENT_PREFIX_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_sdk/lib:/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robotron/robotron-ros2/src/xarm_ros2/xarm_api -DCMAKE_INSTALL_PREFIX=/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api
+[141.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_api)
+[141.259s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api' for CMake module files
+[141.259s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api' for CMake config files
+[141.260s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/bin'
+[141.260s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/lib/pkgconfig/xarm_api.pc'
+[141.260s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/lib/python3.12/site-packages'
+[141.261s] Level 1:colcon.colcon_core.environment:checking '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/bin'
+[141.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/xarm_api/package.ps1'
+[141.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/xarm_api/package.dsv'
+[141.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/xarm_api/package.sh'
+[141.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/xarm_api/package.bash'
+[141.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/xarm_api/package.zsh'
+[141.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotron/robotron-ros2/src/xarm_ros2/install/xarm_api/share/colcon-core/packages/xarm_api)
+[141.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[141.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[141.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[141.274s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[141.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[141.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[141.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[141.429s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[141.574s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[141.575s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[141.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotron/robotron-ros2/src/xarm_ros2/install/local_setup.ps1'
+[141.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotron/robotron-ros2/src/xarm_ros2/install/_local_setup_util_ps1.py'
+[141.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotron/robotron-ros2/src/xarm_ros2/install/setup.ps1'
+[141.724s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotron/robotron-ros2/src/xarm_ros2/install/local_setup.sh'
+[141.726s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotron/robotron-ros2/src/xarm_ros2/install/_local_setup_util_sh.py'
+[141.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotron/robotron-ros2/src/xarm_ros2/install/setup.sh'
+[141.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotron/robotron-ros2/src/xarm_ros2/install/local_setup.bash'
+[141.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotron/robotron-ros2/src/xarm_ros2/install/setup.bash'
+[141.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotron/robotron-ros2/src/xarm_ros2/install/local_setup.zsh'
+[141.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotron/robotron-ros2/src/xarm_ros2/install/setup.zsh'

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/LinearTrackBackOrigin_Response",
+      "fields": [
+        {
+          "name": "ret",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/LinearTrackBackOrigin_Response",
+      "hash_string": "RIHS01_e20dd56ad080d1f29de579291f8ca80305a115365b1cc326ea914d3a4ea11319"
+    }
+  ]
+}

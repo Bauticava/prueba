@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/PlanJoint_Request",
+      "fields": [
+        {
+          "name": "target",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/PlanJoint_Request",
+      "hash_string": "RIHS01_32b8517b2eeea52e2107f1efeb4bbfec28cacb3d1a73b6f64411d5cf6bc1a374"
+    }
+  ]
+}

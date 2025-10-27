@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xarm_msgs__py",
+		"source" : "/home/robotron/robotron-ros2/src/xarm_ros2/build/xarm_msgs/xarm_msgs__py"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "xarm_msgs/srv/SetInt16List_Request",
+      "fields": [
+        {
+          "name": "datas",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "xarm_msgs/srv/SetInt16List_Request",
+      "hash_string": "RIHS01_7dbffbc3c1331cad49b042fd335e7a1dbd1e82fa684e82b97d7484a3329c076f"
+    }
+  ]
+}
